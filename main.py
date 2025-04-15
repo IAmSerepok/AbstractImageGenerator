@@ -7,7 +7,7 @@ from constants import (NUMBER_OF_GENERATIONS, WIDTH, HEIGHT, RGB_IMAGE,
                        R_IMAGE, B_IMAGE, G_IMAGE, NUMBER_OF_TREADS, HSV_IMAGE)
 
 
-def generate(thread_num):
+def generate(thread_num: int):
     for generation in range(NUMBER_OF_GENERATIONS):
         print(f'Image {generation + 1} / {NUMBER_OF_GENERATIONS} in thread {thread_num + 1}')
 
